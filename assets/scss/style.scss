@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Sono', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Sono:wght@300;400;700&display=swap");
+}
+$Dark-purple: #511b5a;
+$Light-purple: #a7439a;
+$main-color: #448c74;
+$main-color-navigation: #2fc894;
+$main-color-navigation-hover:  #69f6c9;
+body {
+  font-family: "Around-icons", sans-serif;
+}
+h2{
+  cursor: pointer;
+  &:hover {
+    color: $main-color;
+    transition: .3s;
+  }
+}
+.nav-background {
+  background-color: $Dark-purple;
+}
+.background-block-light {
+  background-color: $Light-purple;
+}
+.footer {
+  font-weight: bold;
+  background-color: $Dark-purple;
+  padding: 150px;
+  color: black;
+  h3 {
+    cursor: pointer;
+    margin: 0;
+    &:hover {
+      color: $main-color;
+      transition: .3s;
+    }
+  }
+}
+.nav-link {
+  font-weight: bold!important;
+  color: $main-color-navigation!important;
+  &:hover {
+color: $main-color-navigation-hover!important;
+  }
+}

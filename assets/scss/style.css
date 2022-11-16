@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Sono", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Sono:wght@300;400;700&display=swap");
+}
+body {
+  font-family: "Around-icons", sans-serif;
+}
+
+h2 {
+  cursor: pointer;
+}
+h2:hover {
+  color: #448c74;
+  transition: 0.3s;
+}
+
+.nav-background {
+  background-color: #511b5a;
+}
+
+.background-block-light {
+  background-color: #a7439a;
+}
+
+.footer {
+  font-weight: bold;
+  background-color: #511b5a;
+  padding: 150px;
+  color: black;
+}
+.footer h3 {
+  cursor: pointer;
+  margin: 0;
+}
+.footer h3:hover {
+  color: #448c74;
+  transition: 0.3s;
+}
+
+.nav-link {
+  font-weight: bold !important;
+  color: #2fc894 !important;
+}
+.nav-link:hover {
+  color: #69f6c9 !important;
+}
+
+/*# sourceMappingURL=style.css.map */
